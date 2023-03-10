@@ -4,9 +4,8 @@
     <style>
       .grid-container {
         display: grid;
-        grid-template-columns: 50px 50px;
-        grid-template-rows: 50px 50px;
-        gap: 20px;
+        grid-template-columns: auto auto;
+        gap: 30px;
         background-color: #2196f3;
         padding: 10px;
       }
@@ -14,28 +13,43 @@
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
-        padding: 20px;
+        padding: 60px;
         font-size: 30px;
       }
 
       .item1 {
-        grid-row: 1 / span 5;
-        grid-column: 1 / span 4;
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 15;
       }
 
       .item2 {
-        grid-row: 1 / span 2;
-        grid-column: 5 / span 6;
+        grid-column: 4 / span 2;
+        grid-row: 1 / span 7;
       }
 
       .item3 {
-        grid-row: 5;
-        grid-column: 5;
+        grid-column: 4;
+        grid-row: 8 / span 15;
       }
 
       .item4 {
-        grid-row: 4;
         grid-column: 5;
+        grid-row: 8 / span 8;
+      }
+
+      .item5 {
+        grid-column: 5;
+        grid-row: 16 / span 15;
+      }
+
+      .item6 {
+        grid-column: 4;
+        grid-row: 23 / span 8;
+      }
+
+      .item7 {
+        grid-column: 1 / span 3;
+        grid-row: 16 / span 15;
       }
     </style>
   </head>
@@ -47,6 +61,9 @@
       <div class="grid-item item2">2</div>
       <div class="grid-item item3">3</div>
       <div class="grid-item item4">4</div>
+      <div class="grid-item item5">5</div>
+      <div class="grid-item item6">6</div>
+      <div class="grid-item item7">7</div>
     </div>
 
     <p>Direct child elements(s) of the grid container automatically becomes grid items.</p>
