@@ -1001,8 +1001,8 @@ let mahasiswa = [
   { id: 999, name: 'Christeen Paris', gender: 'M', score: 82 },
 ];
 
-//Mapping
-/*console.log(mahasiswa);
+//Mapping   belum rampungg
+console.log(mahasiswa);
 let idMahasiswa = mahasiswa.map(getIdMahasiswa);
 function getIdMahasiswa(element) {
   return element.id;

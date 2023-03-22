@@ -7,11 +7,26 @@ form.addEventListener('submit', function (event) {
 });
 
 function addTodo(newTodo) {
-  //elemen li
+  //membuat element li
   const li = document.createElement('li');
   li.textContent = newTodo;
+  console.log(li);
+  //membuat element button hapus
+  const deleteButton = document.createElement('button');
+  deleteButton.textContent = 'X';
+  deleteButton.addEventListener('click', function () {
+    deleteTodo(this);
+  });
 
+  li.appendChild(deleteButton);
   //append ke ul
-  const ul = document.querySelector(ul);
-  ul.appendChild(li); //belum rampung
+  const ul = document.querySelector('ul');
+  ul.appendChild(li);
+
+  // console.log(ul);
+}
+
+function deleteTodo(todo) {
+  const li = todo.parentNode;
+  li.remove();
 }
