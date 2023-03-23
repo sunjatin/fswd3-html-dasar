@@ -25,7 +25,6 @@ function addTodo(newTodo) {
 
   // console.log(ul);
 }
-
 function deleteTodo(todo) {
   const li = todo.parentNode;
   li.remove();
