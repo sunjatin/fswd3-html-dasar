@@ -1,0 +1,68 @@
+/*body {
+  background:;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #8d8d8d;
+  margin: 2em;
+  padding: 2em;
+  display: inline-block;
+  width: 75%;
+  display: flex; 
+}
+
+.card-image {
+  width: 50%;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}  
+
+.card-content {
+  padding: 0 20px;
+  margin: 0 1em;
+  width: 50%;
+}
+
+.card-title,
+.card-text {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: rgb(134, 240, 107);
+  }
+  .card {
+    width: 100%;
+    display: block;
+  }
+  .card-image {
+    width: 100%;
+  }
+  .card-content {
+    display: block;
+  }
+  .card-text {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+}*/
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: beige;
+}
+
+#menu {
+  background-color: beige;
+}
+#penutup {
+  background-color: #ffd700;
+}
+
