@@ -53,16 +53,3 @@
 .container {
   display: flex;
 }*/
-
-.jumbotron {
-  padding-top: 2rem;
-  background-color: beige;
-}
-
-#menu {
-  background-color: beige;
-}
-#penutup {
-  background-color: #ffd700;
-}
-
